@@ -1,0 +1,28 @@
+RepData_PeerAssessment1-
+
+
+git@github.com:elvira9/RepData_PeerAssessment1-.git
+
+#PA1
+git clone git@github.com:elvira9/RepData_PeerAssessment1-.git         # me funciona la primera vez,crea eldir y todo, git inid etc..
+
+# conectarme desde otra maquina al github, en esta misma carpeta
+
+
+
+git remote add origin git@github.com:amaurandi/RepData_PeerAssessment1.git
+
+#Clonar: cd git
+git clone git@gitlab.atica.um.es:palazon/ideaspar
+# Al inicio traer los cambios a local: cd git
+git pull
+# al final mandar tus cambios
+cd /git/JUR/ 
+git add *; git commit; git push
+# Nota: Guardar: CTR+O
+# Nota: Guardar: CTR+X
+
+
+# create key
+ssh-keygen -t rsa -f ~/.ssh/rsa
+
